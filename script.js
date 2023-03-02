@@ -65,19 +65,20 @@ $('.content-item-wrapper').css({
     'margin' : '5px auto'
 })
 
-const updateBtnSuccess = $('<button>').text('Update Item Successfully');
-updateBtnSuccess.on('click', function() {
+
+const $updateBtnSuccess = $('<button>').text('Update Item Successfully');
+$updateBtnSuccess.on('click', function() {
     bikes[0].updateContentItem(1, 'Updated Kawasaki Ninja zx10r', 'Updated description', 'Super Sport');
     $('#content-item-1').replaceWith(bikes[0].toString());
 });
 
-$('div#buttons-container').append(updateBtnSuccess);
+$('div#buttons-container').append($updateBtnSuccess);
 
-const updateBtnFail = $('<button>').text('Update Item Unsuccessfully');
-updateBtnFail.on('click', function() {
+const $updateBtnFail = $('<button>').text('Update Item Unsuccessfully');
+$updateBtnFail.on('click', function() {
     bikes[0].updateContentItem(2, '', '', '');
 });
 
-$('div#buttons-container').append(updateBtnFail);
+$('div#buttons-container').append($updateBtnFail);
 
 });
