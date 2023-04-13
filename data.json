@@ -1,0 +1,58 @@
+[
+    {
+        "firstName": "Naruto",
+        "LastName": "Uzumaki",
+        "jutsuType": "NinJutsu",
+        "ChakraStyle": "Wind",
+        "bestAttack": "Rasengan"
+
+    },
+    {
+        "firstName": "Sauske",
+        "LastName": "Uchiha",
+        "jutsuType": "NinJutsu",
+        "ChakraStyle": "Lightning",
+        "bestAttack": "Chidori Blade"
+
+    },
+    {
+        "firstName": "Madara",
+        "LastName": "Uchiha",
+        "jutsuType": "GinJutsu",
+        "ChakraStyle": "Fire",
+        "bestAttack": "Susano"
+
+    },
+    {
+        "firstName": "Gara",
+        "LastName": "Sand",
+        "jutsuType": "sandJutsu",
+        "ChakraStyle": "Earth",
+        "bestAttack": "Sand Wave"
+
+    },
+    {
+        "firstName": "Rock",
+        "LastName": "Lee",
+        "jutsuType": "TaiJutsu",
+        "ChakraStyle": "Earth",
+        "bestAttack": "Huricane"
+
+    },
+    {
+        "firstName": "Kakashi",
+        "LastName": "Hatake",
+        "jutsuType": "NinJutsu",
+        "ChakraStyle": "Earth",
+        "bestAttack": "Chidori Push"
+
+    },
+    {
+        "firstName": "Obito",
+        "LastName": "Uchiha",
+        "jutsuType": "GinJutsu",
+        "ChakraStyle": "Fire",
+        "bestAttack": "Kamoi"
+
+    }
+]
